@@ -1,6 +1,6 @@
 body {
     font-size: x-large;
-    background-image: url(./img/skyblur.jpg);
+    background-image: url(img/skyblur.jpg); 
 }
 
 * {
@@ -9,10 +9,13 @@ body {
 }
 
 .wrapper {
-    width: 100%;  
+    width: 100%;
 }
 
 .img-banner {
+    display: block; 
+    width: 100%; 
+    height: auto; 
 }
 
 .img-info p {
@@ -43,13 +46,12 @@ body {
 
 @media only screen and (min-width: 768px) {
     .img-banner {
-        display: block;
-        width: 100%;
+        display: block; 
         padding-bottom: 30px;
     }
     .wrapper {
         width: 600px;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
     .img-info h2 {
         padding: 50px 0px 0px;
@@ -65,26 +67,22 @@ body {
 @media only screen and (min-width: 1000px) {
     .wrapper {
         width: 1000px;
-        margin: 0 auto; 
-    }   
-
+        margin: 0 auto;
+    }
     .img-info {
         width: 70%;
         float: right;
     }
-
     .img-info h2 {
         padding: 20px 0px 0px 40px;
         right: 0;
         float: right;
     }
-
     .img-info p {
         padding: 20px 0px 0px 40px;
         right: 0;
         float: right;
     }
-
     .img-sdg14-icon {
         padding-top: 0px;
         width: 50%;
@@ -129,7 +127,7 @@ body {
 
 .nav-menu li a {
     text-decoration: none;
-    color: #0077b6; 
+    color: #0077b6;
     font-size: 18px;
     padding: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -137,15 +135,15 @@ body {
 }
 
 .nav-menu li a:hover {
-    background-color: #0077b6; 
-    color: white; 
+    background-color: #0077b6;
+    color: white;
 }
 
 .about-me {
     display: none;
     padding: 20px;
     max-width: 800px;
-    margin: 100px auto; 
+    margin: 100px auto;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -162,9 +160,9 @@ body {
 }
 
 .img-Lance {
-    height: 150px; 
-    border-radius: 50%; 
-    object-fit: cover; 
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
     margin-bottom: 20px;
 }
 
@@ -177,7 +175,7 @@ body {
     display: none;
     padding: 20px;
     max-width: 800px;
-    margin: 100px auto; 
+    margin: 100px auto;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -190,13 +188,14 @@ body {
 
 .contact-us i {
     margin: 20px;
-    color: blue; 
+    color: blue;
     transition: color 0.3s ease;
 }
 
 .contact-us i:hover {
-    color: blue; 
+    color: blue;
 }
+
 
 
 
