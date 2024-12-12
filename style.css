@@ -1,6 +1,6 @@
 body {
     font-size: x-large;
-    background-image: url(img/skyblur.jpg);
+    background-image: url(./img/skyblur.jpg);
 }
 
 * {
@@ -13,7 +13,6 @@ body {
 }
 
 .img-banner {
-    display: none;
 }
 
 .img-info p {
@@ -48,20 +47,16 @@ body {
         width: 100%;
         padding-bottom: 30px;
     }
-
     .wrapper {
         width: 600px;
         margin: 0 auto; 
     }
-
     .img-info h2 {
         padding: 50px 0px 0px;
     }
-
     .img-info p {
         padding: 50px 0px 0px;
     }
-
     .img-sdg14-icon {
         padding-top: 30px;
     }
@@ -95,6 +90,12 @@ body {
         width: 50%;
         float: left;
     }
+}
+
+.img-sdg14-icon {
+    padding-top: 0px;
+    width: 30%;
+    float: left;
 }
 
 .img-sdg14-icon {
@@ -196,7 +197,6 @@ body {
 .contact-us i:hover {
     color: blue; 
 }
-
 
 
 
